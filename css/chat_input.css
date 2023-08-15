@@ -4,6 +4,16 @@
 */
 
 /* Alert TODO */
+p14 {
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 15;
+    text-indent: -10;
+    leading: -2;
+    color: #9EC79D;
+}
+
 p {
     font-family: Roboto;
     font-size: 12px;
@@ -164,17 +174,6 @@ p13 {
     text-indent: -10;
     leading:-2;
     color: #f16392;
-}
-
-/* Community */
-p14 {
-	font-family: Roboto;
-	font-size: 12px;
-	text-align: left;
-	padding-left: 15;
-	text-indent: -10;
-	leading:-2;
-	color: #9EC79D;
 }
 
 sender {

@@ -1,7 +1,16 @@
+scrolllink {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #deff00;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 p {
 	font-family: Roboto;
 	font-size: 16px;
-	color: #3F3932;
+	color: #ffffff;
 	text-align: justify;
     font-weight: normal;
 }
@@ -9,7 +18,7 @@ p {
 left {
 	font-family: Roboto;
 	font-size: 16px;
-	color: #3F3932;
+	color: #ffffff;
 	text-align: left;
     font-weight: normal;
 }
@@ -17,7 +26,7 @@ left {
 right {
     font-family: Roboto;
     font-size: 16px;
-    color: #3F3932;
+    color: #ffffff;
     text-align: right;
     font-weight: normal;
 }
@@ -25,7 +34,7 @@ right {
 smallleftmedium {
 	font-family: Roboto;
 	font-size: 15px;
-	color: #3F3932;
+	color: #ffffff;
 	text-align: left;
     font-weight: medium;
 }
@@ -33,40 +42,31 @@ smallleftmedium {
 rightbold {
 	font-family: Roboto;
 	font-size: 16px;
-	color: #3F3932;
+	color: #ffffff;
 	text-align: right;
     font-weight: bold;
 }
 
 goodybookletterleft{
-	font-family:GoodyBookletter;
-	font-size: 21px;
-	color: #2b251e;
-	font-weight: normal;
-	text-align: left;
-}
-
-scrolltitle{
-    font-family: Roboto;
-    font-size: 22px;
-    color: #624025;
+    font-family: RobotoCondensed;
+    font-size: 25px;
+    color: #ffffff;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
-scrolltext{
-    font-family: Roboto;
-    font-size: 16px;
-    color: #765e44;
+scrolltext {
+	font-family: Roboto;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
     font-weight: normal;
-    text-align: justify;
-    paddingRight: 5px;
 }
 
-scrolllink{
-    font-family: Roboto;
-    font-size: 18px;
-    color: #deff00;
-    font-weight: bold;
-    text-align: center;
+scrolltitle {
+	font-family: Roboto;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
+    font-weight: normal;
 }

@@ -1,13 +1,13 @@
+left_p {
+    text-align: left;
+}
+
 p {
 	font-family: Roboto;
 	font-size: 15;
-	color: ##ff00ff;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
-}
-
-left_p {
-	text-align: left;
 }
 
 light_p {

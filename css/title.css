@@ -1,70 +1,113 @@
+redcenter {
+    font-family: RobotoCondensed;
+    font-size: 22px;
+    color: #eb0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+whitemediumcenter {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #c7c7c5;
+    font-weight: medium;
+    text-align: center;
+}
+
+shadowedgreencenter {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #deff00;
+    font-weight: normal;
+    text-align: center;
+    shadow-distance: 2;
+    shadow-blurX: 2;
+    shadow-angle: 90;
+}
+
+whiteboldright {
+    font-family: RobotoCondensed;
+    font-size: 20px;
+    color: #e0e0de;
+    font-weight: bold;
+    text-align: right;
+}
+
+whitemediumboldcenter {
+    font-family: RobotoCondensed;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
 p {
 	font-family: RobotoCondensed;
 	font-size: 22px;
-	color: #f8cd01;
+	color: #b84444;
 	font-weight: bold;
 	text-align: left;
 }
 right {
 	font-family: RobotoCondensed;
 	font-size: 22px;
-	color: #f8cd01;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: right;
 }
 center {
 	font-family: RobotoCondensed;
 	font-size: 22px;
-	color: #f8cd01;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
 }
-
-redcenter {
-	font-family: RobotoCondensed;
-	font-size: 22px;
-	color: #eb0000;
-	font-weight: bold;
-	text-align: center;
-}
-
 shadowedcenter_center{
-	shadow-distance: 2;
-	shadow-blurX: 2;
-	shadow-angle:90;
+	color: #ffffff;
+	shadow-angle: 360;
+	shadow-distance: 0;
+    shadow-blurX: 8;
+    shadow-blurY: 8;
+    shadow-strength: 2;
+
 }
 small {
-	font-family: RobotoCondensed;
-	font-size: 18px;
-	color: #f8cd01;
-	font-weight: bold;
-	text-align: left;
+    font-family: RobotoCondensed;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
 }
 smallright {
-	font-family: RobotoCondensed;
-	font-size: 18px;
-	color: #f8cd01;
-	font-weight: bold;
-	text-align: right;
+    font-family: RobotoCondensed;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right;
 }
 smallcenter {
-	font-family: RobotoCondensed;
-	font-size: 18px;
-	color: #f8cd01;
-	font-weight: bold;
-	text-align: center;
+    font-family: RobotoCondensed;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+	shadow-angle: 360;
+	shadow-distance: 0;
+    shadow-blurX: 8;
+    shadow-blurY: 8;
+    shadow-strength: 2;
 }
 dark {
 	font-family: RobotoCondensed;
 	font-size: 21px;
-	color: #2f2f25;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
 darkcenter {
 	font-family: RobotoCondensed;
 	font-size: 21px;
-	color: #2f2f25;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
 }
@@ -72,7 +115,7 @@ darkcenter {
 darkcenterbig {
 	font-family: Tahoma;
 	font-size: 25px;
-	color: #4E280A;
+	color: #000000;
 	text-align: center;
 }
 opposite {
@@ -83,7 +126,7 @@ opposite {
 oppositecenter {
 	font-family: Tahoma;
 	font-size: 25px;
-	color: #4E280A;
+	color: #ffffff;
 	text-align:center;
 }
 
@@ -91,30 +134,22 @@ oppositecenter {
 white {
 	font-family: Roboto;
 	font-size: 20px;
-	color: #c7c7c5;
+	color: #ffffff;
 	font-weight: normal;
 	text-align: left;
 }
 whitemedium {
 	font-family: Roboto;
 	font-size: 20px;
-	color: #c7c7c5;
+	color: #ffffff;
 	font-weight: medium;
 	text-align: left;
 }
 whitecenter {
 	font-family: Roboto;
 	font-size: 20px;
-	color: #c7c7c5;
+	color: #ffffff;
 	font-weight: normal;
-	text-align: center;
-}
-
-whitemediumcenter {
-	font-family: Roboto;
-	font-size: 20px;
-	color: #c7c7c5;
-	font-weight: medium;
 	text-align: center;
 }
 
@@ -123,46 +158,35 @@ purewhitemedium {
 	font-size: 20px;
 	color: #ffffff;
 	font-weight: medium;
-	text-align: left;
+	text-align: left;	
 }
 
 green {
 	font-family: Roboto;
 	font-size: 20px;
-	color: #deff00;
+	color: #ffffff;
 	font-weight: normal;
 	text-align: left;
 }
 greenbold {
 	font-family: RobotoCondensed;
 	font-size: 20px;
-	color: #deff00;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
 greencenter {
 	font-family: Roboto;
 	font-size: 20px;
-	color: #deff00;
+	color: #ffffff;
 	font-weight: normal;
 	text-align: center;
-}
-
-shadowedgreencenter {
-	font-family: Roboto;
-	font-size: 20px;
-	color: #deff00;
-	font-weight: normal;
-	text-align: center;
-	shadow-distance: 2;
-	shadow-blurX: 2;
-	shadow-angle: 90;
 }
 
 gray {
 	font-family: RobotoCondensed;
 	font-size: 22px;
-	color: #696968;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
@@ -170,28 +194,13 @@ gray {
 whitebold {
 	font-family: RobotoCondensed;
 	font-size: 20px;
-	color: #e0e0de;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
 whiteboldcenter {
 	font-family: RobotoCondensed;
 	font-size: 20px;
-	color: #e0e0de;
-	font-weight: bold;
-	text-align: center;
-}
-whiteboldright {
-	font-family: RobotoCondensed;
-	font-size: 20px;
-	color: #e0e0de;
-	font-weight: bold;
-	text-align: right;
-}
-
-whitemediumboldcenter {
-	font-family: RobotoCondensed;
-	font-size: 24px;
 	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
@@ -224,17 +233,15 @@ whitehugeboldcenter {
 	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
-	shadow-distance: 1;
-	shadow-blurX: 7;
-	shadow-blurY: 7;
-	shadow-angle: 45;
-	shadow-alpha: 0.6;
+	shadow-distance: 2;
+	shadow-blurX: 2;
+	shadow-angle:90;
 }
 
 itemset {
 	font-family: RobotoCondensed;
 	font-size: 20px;
-	color: #feb336;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
@@ -242,21 +249,28 @@ itemset {
 itemetheral {
 	font-family: RobotoCondensed;
 	font-size: 20px;
-	color: #8ab7ee;
+	color: #ffffff;
 	font-weight: bold;
 	text-align: left;
 }
+levelup {
+	font-family: RobotoCondensed;
+	font-size: 31px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	shadow-angle: 360;
+	shadow-distance: 0;
+    shadow-blurX: 8;
+    shadow-blurY: 8;
+    shadow-strength: 5;
+}
 victory {
     font-family: RobotoCondensed;
-    font-size: 24px;
-    color: #673d15;
+    font-size: 20px;
+    color: #000000;
     font-weight: bold;
     text-align: center;
-    shadow-color: #faf328;
-    shadow-blurX: 2;
-    shadow-blurY: 2;
-    shadow-distance: 2;
-    shadow-angle: 90;
 }
 defeat {
     font-family: RobotoCondensed;

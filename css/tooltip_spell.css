@@ -1,3 +1,28 @@
+.subeffect {
+    margin-left: 32;
+}
+
+.importantNotice {
+    font-family: Roboto;
+    font-size: 15;
+    color: #ebc304;
+    margin-left: 32;
+}
+
+.subtitleheader {
+    font-family: Roboto;
+    font-size: 15;
+    color: #c7c7c5;
+}
+
+.valueLineWithIcon {
+    font-family: Roboto;
+    font-size: 15;
+    color: #c7c7c5;
+    margin-right: 126;
+}
+
+
 p {
 	font-family: Roboto;
 	font-size: 15;
@@ -37,7 +62,8 @@ p {
 .bonusvalue {
 	font-family: Roboto;
 	font-size: 15;
-	color: #52AE3F;
+	font-weight: bold;
+	color: #77ff5c;
 }
 
 .malus {
@@ -49,11 +75,8 @@ p {
 .malusvalue {
 	font-family: Roboto;
 	font-size: 15;
-	color: #CB685E;
-}
-
-.subeffect {
-	margin-left: 32;
+	font-weight: bold;
+	color: #ff8375;
 }
 
 .subeffectleftcolumn {
@@ -74,6 +97,7 @@ p {
 .exoticvalue {
 	font-family: Roboto;
 	font-size: 15;
+	font-weight: bold;
 	color: #658FC4;
 }
 
@@ -99,13 +123,6 @@ p {
 	font-family: Roboto;
 	font-size: 15;
 	color: #ebc304;
-}
-
-.importantNotice {
-	font-family: Roboto;
-	font-size: 15;
-	color: #ebc304;
-	margin-left: 32;
 }
 
 .description {
@@ -166,7 +183,6 @@ p {
 	font-style: italic;
 	color: #6d6d6d;
 	text-align: right;
-	leading: -15;
 }
 
 spellZone {
@@ -181,17 +197,4 @@ spellZone {
     font-size: 18;
     font-weight: bold;
     color: #dfdfdf;
-}
-
-.subtitleheader {
-	font-family: Roboto;
-	font-size: 15;
-	color: #c7c7c5;
-}
-
-.valueLineWithIcon {
-	font-family: Roboto;
-	font-size: 15;
-	color: #c7c7c5;
-	margin-right: 126;
 }

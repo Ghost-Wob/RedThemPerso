@@ -1,7 +1,7 @@
 p {
 	font-family: Verdana;
 	font-size: 20px;
-	color: #3b362b;
+	color: #ffffff;
 	text-align: left;
 }
 bold_p { font-weight: bold; }
@@ -9,8 +9,13 @@ right_p { text-align: right; }
 center_p { text-align: center; }
 justify_p { text-align: justify; }
 center2_center { color: #ffffff; }
-dark_p { color: #4E280A; }
-darkcenterbig_dark { text-align: center; }
+dark_p { color: #ffffff; }
+
+darkcenterbig_dark { 
+	text-align: center;
+	color: #000000; 
+}
+	
 
 
 light {

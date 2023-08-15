@@ -1,3 +1,28 @@
+.subeffect {
+    margin-left: 32;
+}
+
+.importantNotice {
+    font-family: Roboto;
+    font-size: 17;
+    color: #ebc304;
+    margin-left: 32;
+}
+
+.subtitleheader {
+    font-family: Roboto;
+    font-size: 15;
+    color: #c7c7c5;
+}
+
+.valueLineWithIcon {
+    font-family: Roboto;
+    font-size: 15;
+    color: #c7c7c5;
+    margin-right: 126;
+}
+
+
 p {
 	font-family: Tahoma;
 	font-size: 17;
@@ -29,31 +54,27 @@ p {
 .bonus {
 	font-family: Tahoma;
 	font-size: 17;
-	color: #52AE3F;
+	color: #6db213;
 }
 
 .bonusvalue {
 	font-family: Tahoma;
 	font-size: 17;
 	font-weight: bold;
-	color: #52AE3F;
+	color: #77ff5c;
 }
 
 .malus {
 	font-family: Tahoma;
 	font-size: 17;
-	color: #CB685E;
+	color: #d0483a;
 }
 
 .malusvalue {
 	font-family: Tahoma;
 	font-size: 17;
 	font-weight: bold;
-	color: #CB685E;
-}
-
-.subeffect {
-	margin-left: 32;
+	color: #ff8375;
 }
 
 .subeffectleftcolumn {
@@ -75,7 +96,7 @@ p {
 	font-family: Tahoma;
 	font-size: 17;
 	font-weight: bold;
-	color: #68b6ff;
+	color: #85bcff;
 }
 
 .theoretical {
@@ -100,13 +121,6 @@ p {
 	font-family: Tahoma;
 	font-size: 17;
 	color: #ebc304;
-}
-
-.importantNotice {
-	font-family: Roboto;
-	font-size: 17;
-	color: #ebc304;
-	margin-left: 32;
 }
 
 .description {
@@ -176,21 +190,8 @@ spellZone {
 }
 
 .spellpair {
-	font-family: Roboto;
-	font-size: 18;
-	font-weight: bold;
-	color: #dfdfdf;
-}
-
-.subtitleheader {
-	font-family: Roboto;
-	font-size: 15;
-	color: #c7c7c5;
-}
-
-.valueLineWithIcon {
-	font-family: Roboto;
-	font-size: 15;
-	color: #c7c7c5;
-	margin-right: 126;
+    font-family: Roboto;
+    font-size: 18;
+    font-weight: bold;
+    color: #dfdfdf;
 }
